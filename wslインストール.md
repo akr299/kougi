@@ -8,6 +8,8 @@ WSLを有効化するには、コマンドプロンプトを管理者権限で�
 
 ```bash
 
+wsl --install
+
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
