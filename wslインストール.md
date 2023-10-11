@@ -14,6 +14,7 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 WSL 2を使用するために、Windows用の更新プログラムをダウンロードしてインストールする必要があります。以下のリンクからダウンロードできます。 
 - [WSL 2 Update Package for x64 Machines](https://aka.ms/wsl2-x64) 
 - [WSL 2 Update Package for ARM64 Machines](https://aka.ms/wsl2-arm64)
+- https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 
 ダウンロードが完了したら、インストールして再起動します。 
 4. **WSL 2をデフォルトバージョンとして設定** :
