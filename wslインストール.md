@@ -9,6 +9,8 @@ WSLを有効化するには、コマンドプロンプトを管理者権限で�
 ```bash
 
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ``` 
 3. **WSL 2用の更新プログラムをダウンロード** :
 WSL 2を使用するために、Windows用の更新プログラムをダウンロードしてインストールする必要があります。以下のリンクからダウンロードできます。 
@@ -17,6 +19,7 @@ WSL 2を使用するために、Windows用の更新プログラムをダウン�
 - https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 
 ダウンロードが完了したら、インストールして再起動します。 
+
 4. **WSL 2をデフォルトバージョンとして設定** :
 WSL 2をデフォルトバージョンとして設定するには、コマンドプロンプトで次のコマンドを実行します。
 
